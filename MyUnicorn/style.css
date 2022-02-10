@@ -1,0 +1,105 @@
+html{
+    background-image: url(img/background.png);
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.nice{
+    font-family: arial, sans-serif;
+}
+.title{
+    font-family: 'courgette', cursive;
+    color: #FFF;
+}
+#header{
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #C55394;
+}
+#header>div#title{
+    display: block;
+    padding: 0;
+    font-family: arial, sans-serif;
+    color: #FFF;
+    font-style: italic;
+}
+#header#Menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 20px;
+    color: #FFF;
+}
+#Menu>a{
+    display: block;
+    padding: 20px;
+    letter-spacing: 20px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 5px;
+}
+a:hover{
+    background-color: #EB43A3;
+}
+#container{
+    text-align: center;
+    background-image: url(img/rainbow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5% 5% 5% 5%;
+    height: 10%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    color: #C55394;
+}
+.block-white{
+    border: 3px black solid;
+    border-radius: 10px;
+    box-shadow: #333;
+    margin: 2% 2% 2% 2%;
+}
+.fontawesome{
+    color: #EB43A3;
+    width: 2;
+    height: 2;
+    position: fixed;
+}
+h2{
+    color: #EB43A3;
+    font-style:initial;
+}
+#row{
+    display: inline;
+    width: calc(100%  / 4);
+}
+#figure{
+    text-overflow:unset;
+    text-shadow: #333;
+}
+#form{
+    text-align: right;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    color: #FFF;
+    background-color: #C55394;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
